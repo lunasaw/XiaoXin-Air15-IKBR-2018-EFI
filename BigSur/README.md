@@ -26,11 +26,11 @@
 
 【启动方式】
 
-Clover r5118
+Opencore 0.6.3
 
 【正常工作的设备】
 
-系统：macOS Catalina 10.15.7
+系统：macOS bigsur 10.11
 
 独立显卡：屏蔽
 

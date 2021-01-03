@@ -359,7 +359,9 @@
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
-				<string>Dual Band Wireless-AC 3165 Plus Bluetooth</string>
+				<string>BCM43224 802.11a/b/g/n</string>
+				<key>compatible</key>
+				<data>AABOBEOg</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
 			<dict>
@@ -1188,7 +1190,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>vsmcgen=1 keepsyms=1 debug=0x100 darkwake=3 brcmfx-country=#a npci=0x3000  -brcmfxbeta -bt4lefxbeta -alcbeta -cpufbeta -lilubetaall -vsmcbeta</string>
+				<string>-v vsmcgen=1 keepsyms=1 debug=0x100 darkwake=3 brcmfx-country=#a npci=0x3000  -brcmfxbeta -bt4lefxbeta -alcbeta -cpufbeta -lilubetaall -vsmcbeta</string>
 				<key>csr-active-config</key>
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
@@ -1228,9 +1230,9 @@
 			<key>ARTFrequency</key>
 			<integer>0</integer>
 			<key>BoardProduct</key>
-			<string>Mac-827FAC58A8FDFA22</string>
+			<string>Mac-5F9802EFE386AA28</string>
 			<key>BoardRevision</key>
-			<data></data>
+			<data>Aw==</data>
 			<key>DevicePathsSupported</key>
 			<integer>0</integer>
 			<key>FSBFrequency</key>
@@ -1242,26 +1244,26 @@
 			<key>SmcBranch</key>
 			<data></data>
 			<key>SmcPlatform</key>
-			<data></data>
+			<data>ajIxNGsAAAA=</data>
 			<key>SmcRevision</key>
 			<data></data>
 			<key>StartupPowerEvents</key>
 			<integer>0</integer>
 			<key>SystemProductName</key>
-			<string>MacBookAir8,1</string>
+			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFXKEZDJK78</string>
+			<string>C02D200DML7H</string>
 			<key>SystemUUID</key>
-			<string>9229CE36-CB37-4A10-9694-2DDA56ADD7BA</string>
+			<string>03CF252C-6BCA-4572-A697-85DEDBF87641</string>
 		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>FVF842403GUKN2RJA</string>
+			<string>C02028405J900001M</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1793</integer>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>ROM</key>
@@ -1269,81 +1271,24 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookAir8,1</string>
+			<string>MacBookPro16,2</string>
 			<key>SystemSerialNumber</key>
-			<string>FVFXKEZDJK78</string>
+			<string>C02D200DML7H</string>
 			<key>SystemUUID</key>
-			<string>9229CE36-CB37-4A10-9694-2DDA56ADD7BA</string>
+			<string>03CF252C-6BCA-4572-A697-85DEDBF87641</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
 			<key>BID</key>
-			<string>Mac-827FAC58A8FDFA22</string>
+			<string>Mac-5F9802EFE386AA28</string>
 			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
+			<data>ZvCv/QAAAAA=</data>
 			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
+			<data>f////wAAAAA=</data>
 			<key>MLB</key>
-			<string>FVF842403GUKN2RJA</string>
+			<string>C02028405J900001M</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
-		</dict>
-		<key>SMBIOS</key>
-		<dict>
-			<key>BIOSReleaseDate</key>
-			<string>05/13/2020</string>
-			<key>BIOSVendor</key>
-			<string></string>
-			<key>BIOSVersion</key>
-			<string>1037.120.87.0.0</string>
-			<key>BoardAssetTag</key>
-			<string></string>
-			<key>BoardLocationInChassis</key>
-			<string>Part Component</string>
-			<key>BoardManufacturer</key>
-			<string></string>
-			<key>BoardProduct</key>
-			<string>Mac-827FAC58A8FDFA22</string>
-			<key>BoardSerialNumber</key>
-			<string>FVF842403GUKN2RJA</string>
-			<key>BoardType</key>
-			<integer>10</integer>
-			<key>BoardVersion</key>
-			<string>1.0</string>
-			<key>ChassisAssetTag</key>
-			<string>Air-Enclosure</string>
-			<key>ChassisManufacturer</key>
-			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>FVFXKEZDJK78</string>
-			<key>ChassisType</key>
-			<integer>9</integer>
-			<key>ChassisVersion</key>
-			<string>Mac-827FAC58A8FDFA22</string>
-			<key>FirmwareFeatures</key>
-			<data>N+EP/AAAAAA=</data>
-			<key>FirmwareFeaturesMask</key>
-			<data>P/8f/wAAAAA=</data>
-			<key>PlatformFeature</key>
-			<integer>58</integer>
-			<key>ProcessorType</key>
-			<integer>0</integer>
-			<key>SmcVersion</key>
-			<data></data>
-			<key>SystemFamily</key>
-			<string>MacBook Air</string>
-			<key>SystemManufacturer</key>
-			<string></string>
-			<key>SystemProductName</key>
-			<string>MacBookAir8,1</string>
-			<key>SystemSKUNumber</key>
-			<string>Mac-827FAC58A8FDFA22</string>
-			<key>SystemSerialNumber</key>
-			<string>FVFXKEZDJK78</string>
-			<key>SystemUUID</key>
-			<string>9229CE36-CB37-4A10-9694-2DDA56ADD7BA</string>
-			<key>SystemVersion</key>
-			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

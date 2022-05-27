@@ -1,5 +1,9 @@
 # XiaoXin-Air15-IKBR-2018-EFI
 
+## 20220-05-27更新
+
+支持 Monterey 12.3.4 系统 镜像链接 https://mirrors.dtops.cc/iso/MacOS/daliansky_macos/
+
 # 2018版联想小新 Air15 IKBR EFI，完美支持安装 macOS10.15.X系统。
 
 
